@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* TOP的部份 */
+.top{
+    height:50px;
+    width:100vw;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Golos Text', sans-serif;
+}
+.top>p{  
+    color: red;
+    font-weight:bolder;
+    font-style:oblique;
+    
+    
+}
+
+/* MIDDLE */
+.content{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* LEFT */
+.left{
+    width: 50%;
+    height: 500%;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.modelChosen{
+    display: flex;
+    padding-top: 20px;
+}
+li{
+    list-style:none;
+    float: left;
+    font-size:x-small;
+    color: gainsboro;
+}
+li>a{
+    color: gainsboro;
+}
+li>a:hover{
+    color: gray;
+}
+.shoesPic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+/* RIGHT */
+.right {
+    padding-top: 40px;
+    padding-right: 15px;
+    line-height: 1.6rem;
+    width: 50%;
+    height: 500%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.btn>a {
+   text-decoration: none;
+   color: black;
+   font-size: x-small;
+}
+
+.right .brandText{
+    font-size: 4px;
+    color:grey;
+    font-weight:lighter;
+
+}
+
+.right p{
+    font: size 20px;
+    font-weight: bold;
+
+}
+
+.buy{
+    display: block;
+   
+}
+
+.buy .money{
+    float: left;
+    width: 180px;
+    height: 80px;
+
+}
+
+.buy .stock{
+    float: left;
+    width: 180px;
+    height: 80px;
+
+}
+.money button{
+    background-color: red;
+    border-radius: 4px;
+    border-style: hidden;
+    color: white;
+    padding: 8px 40px;
+    font-size: 0.5rem;
+    max-width: 100px;
+
+}
+
+.newText{
+    font-size: xx-small;    
+
+}
+.stock button{
+    background-color: rgb(231, 231, 231);
+    border-radius: 4px;
+    border-style: hidden;
+    color: black;
+    padding: 8px 40px;
+    max-width: 150px;
+    cursor: not-allowed;
+}
+.usedText{
+    font-size:xx-small;    
+
+}
+.Text1{
+    font-size: 10px;
+    
+    
+}
+.Text2{
+    font-size: 10px;
+}
+
+.blank{
+    height:10px;
+    border-radius:1px;
+    background-image: rgba(249,249,249);
+}
+
+.about .first{
+    font-weight: bold;
+}
+
+.about>div>p{
+    color:pblack;
+    font-size:10px;
+    font-weight: 100;
+    text-align: justify;
+    width:auto;
+    
+}
